@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #f72585;
+    text-align: center;
+    margin: 15px    ;
+}
+h2{
+    color:#3f37c9;
+}
+p{
+    color: #457b9d;
+}
+.tarjeta{
+    border: 10px solid #c4217d;
+    background-color: aliceblue;
+    
+}
