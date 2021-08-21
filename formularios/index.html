@@ -9,6 +9,15 @@
 <body>
     <h1>Formularios e </h1>
     <form method="GET">
+
+        <label for="idPersona">Persona:</label><br/>
+        <input type="text" id="idPersona" name="idPersona"
+        readonly="True" value="100"><br/>
+
+        <!-- parametro oculto -->
+
+        <input type="hidden" id="sistema" name="sistema" value="SAP"> 
+
         <label for="nombre">Nombre:</label><br/>
         <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true" /><br/>
 
@@ -41,6 +50,7 @@
         <input type="password" id="pasword" name="pasword" required="true"/><br/>
 
         <input type="submit" value="Enviar" />
+        <input type="reset" value="restablecer">
     </form>
 </body>
 </html>
