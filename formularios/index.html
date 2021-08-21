@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios e </h1>
+    <form method="GET">
+        <label for="nombre">Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true" /><br/>
+
+        <label for="apellido">Apellido:</label><br/>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"/><br/>
+
+        <label for="">Genero</label><br>
+        <input type="radio" id="femenino" name="genero" value="femenenino">
+        <label for="femenino">femenino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">masculino</label>
+        <br/>
+
+        <label for="">Genero musica</label><br>
+        <input type="checkbox" id="clasica" name="musica" value="clasica" />
+        <label for="clasica">clasica</label><br/>
+
+
+        <input type="checkbox" id="rock" name="musica" value="rock" />
+        <label for="rock">rock</label><br/>
+
+
+        <input type="checkbox" id="pop" name="musica" value="pop" />
+        <label for="pop">pop</label><br/>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" placeholder="Escribe tu email" required="true"/><br/>
+
+        <label for="pasword">Pasword:</label><br/>
+        <input type="password" id="pasword" name="pasword" required="true"/><br/>
+
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>
